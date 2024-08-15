@@ -3,11 +3,11 @@ windows环境安装：
 conda install libuv
 pip install dpcpp-cpp-rt==2024.2 mkl-dpcpp==2024.2
 ```
-### For Intel® Arc™ A-Series Graphics, use the commands below:
+#### For Intel® Arc™ A-Series Graphics, use the commands below:
 ```
 python -m pip install torch==2.1.0.post3 torchvision==0.16.0.post3 torchaudio==2.1.0.post3 intel-extension-for-pytorch==2.1.40+xpu --extra-index-url https://pytorch-extension.intel.com/release-whl/stable/xpu/cn/
 ```
-### For Intel® Core™ Ultra Processors with Intel® Core™ Ultra Processors with Intel® Arc™ Graphics (MTL-H), use the commands below:
+#### For Intel® Core™ Ultra Processors with Intel® Core™ Ultra Processors with Intel® Arc™ Graphics (MTL-H), use the commands below:
 ```
 python -m pip install torch==2.1.0.post3 torchvision==0.16.0.post3 torchaudio==2.1.0.post3 intel-extension-for-pytorch==2.1.40+xpu --extra-index-url https://pytorch-extension.intel.com/release-whl/stable/mtl/cn/
 pip install funasr #  我这边是1.0.27版本
